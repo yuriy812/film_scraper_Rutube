@@ -1,8 +1,9 @@
 ##### Структура проекта
+```
 film_scraper/
 ├── film_scraper.py
 └── README.md
-film_scraper.py
+```
 ##  README.md
 ### Парсер Фильмов  
 
@@ -22,6 +23,7 @@ source venv/bin/activate  # Для Linux/Mac
 venv\Scripts\activate  # Для Windows```
 3. **Установка зависимостей:**
 Создайте файл requirements.txt со следующими зависимостями:
+```
 ```
 requests  
 beautifulsoup4  
