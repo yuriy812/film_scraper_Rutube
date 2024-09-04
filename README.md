@@ -32,8 +32,7 @@ beautifulsoup4
 pandas  
 openpyxl
 ```
-Установите зависимости:<br><br>
-
+Установите зависимости:<br>
 ```pip install -r requirements.txt```
 
 
