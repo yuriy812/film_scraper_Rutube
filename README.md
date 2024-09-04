@@ -13,17 +13,19 @@ film_scraper/
 ## Инструкция по сборке и запуску  
 
 1. **Клонирование репозитория**:  
-   ```bash  
-   git clone https://github.com/yourusername/film-scraper.git  
-   cd film-scraper```
-2. **Создание виртуального окружения**(рекомендуется):
+```bash
+git clone https://github.com/yourusername/film-scraper.git  
+cd film-scraper
+````
+2. **Создание виртуального окружения**<br>(рекомендуется):
 ```
 python -m venv venv  
 source venv/bin/activate  # Для Linux/Mac  
-venv\Scripts\activate  # Для Windows```
-3. **Установка зависимостей:**
-Создайте файл requirements.txt со следующими зависимостями:
+venv\Scripts\activate  # Для Windows
 ```
+3. **Установка зависимостей:**<br>
+Создайте файл requirements.txt со следующими зависимостями:
+
 ```
 requests  
 beautifulsoup4  
@@ -31,6 +33,7 @@ pandas
 openpyxl
 ```
 Установите зависимости:<br><br>
+
 ```pip install -r requirements.txt```
 
 
